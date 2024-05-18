@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+<html>
+  <head>
+    <title>
+      Санал асуулга
+      </title>
+      <h1 id="title">
+        Санал асуулга
+        </h1>
+    </head>
+    <body>
+      <p id="description">
+        Санал асуулганд оролцсонд баярлалаа.
+        </p>
+        <div>
+          <form id="survey-form">
+            <label id="name-label" for="name">Name:</label>
+            <input 
+            id="name" 
+            type="text" required
+            placeholder="Даваа Мөнхбат"/><br><br>
+            <label id="email-label" for="email">Email</label>
+            <input type="email" id="email" size="30" required placeholder="davaa.munhbat@hotmail.com">
+            <br><br>
+            <label id="number-label" for="age">Age</label>
+            <input 
+            class="survey-form" type="number" id="number" min=18 max=100 placeholder="18">
+            <br><br>
+            <label for="role">Мэргэжил:</label>
+<select class= "survey-form" id="dropdown">
+  <option>Сурагч</option>
+    <option>Бүтэн цагийн ажилтан</option>
+     <option>Бүтэн цагийн суралцагч</option>
+      <option>Нууцлав</option>
+       <option>Бусад</option>
+
+      </select><br><br>
+      <label for="choice1">
+        Яг юу хиймээр байна вэ?</label>
+        <b>
+        <input type="checkbox" value="choice1"><label>Front-End Project</label>
+        <input type="checkbox" value="choice1"><label>Back-End Project</label>
+        <input type="checkbox" value="choice1"><label>Data Visualization</label>
+        <input type="checkbox" value="choice1"><label>Challenges</label>
+        <input type="checkbox" value="choice1"><label>Open source community</label>
+        <input type="checkbox" value="choice1"><label>Forum</label>
+        
+</b>
+  <div class="survey-form">
+         <p>Мэргэжлээ сонгоно уу</p>
+       <label for="psychology" class="radio-label"> Programming</label>
+       <input type="radio" id="programming" value="programming" name="study-field">
+       <br><label for="psychology" class="radio-label"> Network</label>
+       <input type="radio" id="network" value="network" name="study-field">
+<br>
+<label>Нэмэлт санал сэтгэгдэл</label>
+<textarea class="survey-form"></textarea>
+      <input id="submit" for="survey-form" type="submit"></input>
+      </div>
+            </form>
+        
+          </div>
+      </body>
+  </html>

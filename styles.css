@@ -1,0 +1,20 @@
+body{
+    display:block;
+    background-color:black;
+    color:white;
+    margin:0 auto;
+    padding:0.5rem auto;
+    font-size:1.125rem;
+    font-weight:400;
+    line-height:1.4;
+  }
+  textarea{
+    width:50%;
+  }
+  main{
+    font-family:Arial;
+  }
+  .survey-form{
+    padding:2;
+  }
+  
